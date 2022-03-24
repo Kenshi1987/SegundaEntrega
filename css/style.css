@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:wght@300&display=swap');
+
+/*estilos generales*/
+
+	* {
+	padding: 0;
+	margin: 0;	
+	overflow-x: hidden;
+	font-family: 'Roboto', sans-serif;
+	}
+
+	a {
+	text-decoration: none;
+	color: black;
+	}
+
+	p {
+		text-align: justify;
+	}
+
+	
+	
+/*estilos nav propia*/
+
+	nav ul {
+		margin-top: 40px;
+	}
+
+	nav ul li a:hover {
+		color: black;
+		font-weight: 600;
+		cursor: pointer;
+	}
+
+	.bg-colorNav {
+		background-color: rgba(90,240,240, .2);
+	}
+
+	.logo {
+		width: 150px;
+		margin-left: 10px;
+		margin-top: 5px;		
+	}
+
+/*comiensa estilos aside*/
+
+	aside {
+		background-color: rgba(252,184,20, .5);
+	}
+
+	aside ul li {
+		list-style: none;
+
+	}
+
+	aside ul li a {
+		text-decoration: none;
+	}
+
+	aside ul li a:hover {
+		color: black;
+		font-weight: 600;
+		cursor: pointer;
+	}
+
+/*termina estilos aside*/
+
+/*comienza estilos main*/
+
+	main {
+		background-color: papayawhip;
+		
+		
+	}
+
+/*termina estilos main*/
+
+/*comienza estilos footer*/
+
+	footer {
+		background-color: rgba(90,240,240, .2);
+	}
+
+	footer a img {
+		display: inline-flex;
+		width: 35px;
+		height: 35px;
+		margin-top: 10px;
+	}
+
+/*termina estilos footer*/
+
+/*comienza estilos cards*/
+
+	.my_card {
+		background-color: white;
+		border-radius: 10px;
+		box-shadow: 0 2px 2px rgba(0, 0, 0, 0.8);
+		overflow: hidden;
+		transition: all 0.5s;
+		box-sizing: border-box;
+		z-index: 100;
+		height: 550px;
+		
+
+	}
+
+	.my_card:hover {
+		box-shadow: 0 12px 16px rgba(0, 0, 0, 0.8);
+		z-index: 100;
+	}
+
+	.card_img {
+		width: 100%;
+		height: 50%;
+		object-fit: cover;
+	}
+
+	
+
+/*termina estilos cards*/
+
+/*estilos form y maps*/
+
+	form {
+		background-color: rgba(196,196,196,0.5);
+		width: 100%;
+		margin: 10px 0;
+		text-align: center;
+		padding: 10px;	
+		font-size: 1rem;
+		font-weight: 200;
+			
+	}
+
+	form label {
+		display: block;
+		margin: 5px 0;
+	}
+
+	form input {
+		margin: 5px;
+		text-align: center;
+		width: 80%;		
+		font-size: 1rem;
+	}
+
+	form .text_area {
+		width: 80%;
+		height: 300px;
+	}
+
+	form .boton {
+		width: auto;
+	}
+
+	form ::placeholder {
+		font-size: .8rem;
+		text-align: center;
+	}
+
+	form .text_area::placeholder {
+		line-height: 200px;
+	}
+
+	.maps {
+		text-align: center;
+		width: 100%;
+		height: 300px;
+		border: none;
+	}
+/*estilos form y maps*/
+
+@media only screen and (min-width: 1024px){
+	form {
+		width: 70%;
+	}
+
+	.maps {
+		width: 50%;
+	}
+
+	.logo {
+		width: 250px;
+
+	}
+
+	nav ul {
+		font-size: 1.5rem;
+		margin-top: 80px;
+	}
+
+	
+
+	
+
+	
+
+
+
+
+
+
+
